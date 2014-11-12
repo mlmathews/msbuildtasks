@@ -127,7 +127,8 @@ namespace MSBuild.Community.Tasks.Subversion
         /// </summary>
         private void ResetMemberVariables()
         {
-            RepositoryPath = string.Empty;
+            //Removed so that SvnInfo can be run against a remote repo URL
+            //RepositoryPath = string.Empty;
             RepositoryRoot = string.Empty;
             RepositoryUuid = string.Empty;
             NodeKind = string.Empty;
